@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd scholarship-compass-aid-main && npm install && npm run build",
+  "outputDirectory": "scholarship-compass-aid-main/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
